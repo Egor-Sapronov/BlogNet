@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical">
+  <Class Name="Model.UserProfile">
+    <Position X="5.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAgAAAAAAAAAAAAACgAAAAAIAAAAQAAAAAAAAA=</HashCode>
+      <FileName>AccountModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.Answer">
+    <Position X="9.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAgAgAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Answer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.AnswerRating">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBADAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>AnswerRating.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Answer" />
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Model.Question">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAACAAAAAgAAAEAAAAAAACAAAAAAoAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.QuestionRating">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAADAAAAAAAAAAAAAAAAAAgAAAAAAAAEAAAAAAQAAAA=</HashCode>
+      <FileName>QuestionRating.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Question" />
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Model.UsersInAnswers">
+    <Position X="7.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBADAAAAAAAAAAAAAAAAAAgAAAAAAAAEAAAAAgQAAAA=</HashCode>
+      <FileName>UsersInAnswers.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Answer" />
+      <Property Name="Question" />
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Model.UsersInQuestions">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAADAAAAAAAAAAAAAAAAAAgAAAAAAAAEAAAAAAQAAAA=</HashCode>
+      <FileName>UsersInQuestions.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Question" />
+      <Property Name="User" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Model.Tag">
+    <Position X="14" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Tag.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Model.QuestionsInTags">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAAAAAAAAAAAAAEAAAAAAQAAAE=</HashCode>
+      <FileName>QuestionsInTags.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Tag" />
+      <Property Name="Question" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

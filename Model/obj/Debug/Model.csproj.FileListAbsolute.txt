@@ -1,0 +1,10 @@
+C:\Users\Egor\Documents\MyProjects\carhelper\Web\Model\bin\Debug\Model.dll.config
+C:\Users\Egor\Documents\MyProjects\carhelper\Web\Model\bin\Debug\Model.dll
+C:\Users\Egor\Documents\MyProjects\carhelper\Web\Model\bin\Debug\Model.pdb
+C:\Users\Egor\Documents\MyProjects\carhelper\Web\Model\bin\Debug\EntityFramework.dll
+C:\Users\Egor\Documents\MyProjects\carhelper\Web\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Egor\Documents\MyProjects\carhelper\Web\Model\bin\Debug\EntityFramework.xml
+C:\Users\Egor\Documents\MyProjects\carhelper\Web\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Egor\Documents\MyProjects\carhelper\Web\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\Egor\Documents\MyProjects\carhelper\Web\Model\obj\Debug\Model.dll
+C:\Users\Egor\Documents\MyProjects\carhelper\Web\Model\obj\Debug\Model.pdb
