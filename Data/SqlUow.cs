@@ -23,13 +23,10 @@ namespace Data
             DbContext.SaveChanges();
         }
 
-        //public IQuestionRepository Questions { get { return GetRepo<IQuestionRepository>(); } }
-
-        //public IAnswerRepository Answers { get { return GetRepo<IAnswerRepository>(); } }
-
         //public ITagRepository Tags { get { return GetRepo<ITagRepository>(); } }
 
-        public IRepository<Model.UserProfile> UserProfiles { get { return GetStandardRepo<UserProfile>(); } }
+        public IRepository<UserProfile> UserProfiles { get { return GetStandardRepo<UserProfile>(); } }
+
 
         protected void CreateDbContext()
         {
