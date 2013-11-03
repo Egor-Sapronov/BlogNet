@@ -46,27 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CarHelperDbContext.cs" />
-    <Compile Include="Configuration\AnswerConfiguration.cs" />
-    <Compile Include="Configuration\QuestionConfiguration.cs" />
-    <Compile Include="Configuration\TagConfiguration.cs" />
-    <Compile Include="Configuration\UserProfileConfiguration.cs" />
-    <Compile Include="Contracts\IAnswerRepository.cs" />
-    <Compile Include="Contracts\IQuestionRepository.cs" />
+    <Compile Include="BlogDbContext.cs" />
     <Compile Include="Contracts\IRepository.cs" />
     <Compile Include="Contracts\ISqlUow.cs" />
-    <Compile Include="Contracts\ITagRepository.cs" />
     <Compile Include="EFRepository.cs" />
-    <Compile Include="AnswerRepository.cs" />
     <Compile Include="Helpers\IRepositoryProvider.cs" />
     <Compile Include="Helpers\RepositoryProvider.cs" />
-    <Compile Include="QuestionRepository.cs" />
     <Compile Include="Helpers\RepositoryFactories.cs" />
     <Compile Include="SqlUow.cs" />
-    <Compile Include="TagRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Configuration\" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />

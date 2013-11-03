@@ -25,11 +25,6 @@ namespace Model
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int UserId { get; set; }
         public string UserName { get; set; }
-
-        public virtual ICollection<UsersInQuestions> UsersInQuestions { get; set; }
-        public virtual ICollection<UsersInAnswers> UsersInAnswers { get; set; }
-        public virtual ICollection<QuestionRating> QuestionRating { get; set; }
-        public virtual ICollection<AnswerRating> AnswerRating { get; set; }
     }
 
     public class RegisterExternalLoginModel

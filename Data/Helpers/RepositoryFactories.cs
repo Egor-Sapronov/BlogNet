@@ -32,9 +32,9 @@ namespace Data
         {
             return new Dictionary<Type, Func<DbContext, object>>
                 {
-                   {typeof(IAnswerRepository), dbContext => new AnswerRepository(dbContext)},
-                   {typeof(IQuestionRepository), dbContext => new QuestionRepository(dbContext)},
-                   {typeof(ITagRepository), dbContext => new TagRepository(dbContext)},
+                   //{typeof(IAnswerRepository), dbContext => new AnswerRepository(dbContext)},
+                   //{typeof(IQuestionRepository), dbContext => new QuestionRepository(dbContext)},
+                   //{typeof(ITagRepository), dbContext => new TagRepository(dbContext)},
                 };
         }
 

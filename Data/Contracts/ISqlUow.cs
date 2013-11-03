@@ -16,9 +16,6 @@ namespace Data.Contracts
         void Commit();
 
         //Repositories
-        IQuestionRepository Questions { get; }
-        IAnswerRepository Answers { get; }
-        ITagRepository Tags { get; }
         IRepository<UserProfile> UserProfiles { get;}
     }
 }

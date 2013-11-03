@@ -10,3 +10,15 @@ C:\Users\Egor\Documents\MyProjects\carhelper\Web\Data\bin\Debug\Model.dll
 C:\Users\Egor\Documents\MyProjects\carhelper\Web\Data\bin\Debug\Model.pdb
 C:\Users\Egor\Documents\MyProjects\carhelper\Web\Data\bin\Debug\EntityFramework.xml
 C:\Users\Egor\Documents\MyProjects\carhelper\Web\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Egor\Documents\GitHub\BlogNet\Data\bin\Debug\Data.dll.config
+C:\Users\Egor\Documents\GitHub\BlogNet\Data\bin\Debug\Data.dll
+C:\Users\Egor\Documents\GitHub\BlogNet\Data\bin\Debug\Data.pdb
+C:\Users\Egor\Documents\GitHub\BlogNet\Data\bin\Debug\EntityFramework.dll
+C:\Users\Egor\Documents\GitHub\BlogNet\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Egor\Documents\GitHub\BlogNet\Data\bin\Debug\Model.dll
+C:\Users\Egor\Documents\GitHub\BlogNet\Data\bin\Debug\Model.pdb
+C:\Users\Egor\Documents\GitHub\BlogNet\Data\bin\Debug\EntityFramework.xml
+C:\Users\Egor\Documents\GitHub\BlogNet\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Egor\Documents\GitHub\BlogNet\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\Egor\Documents\GitHub\BlogNet\Data\obj\Debug\Data.dll
+C:\Users\Egor\Documents\GitHub\BlogNet\Data\obj\Debug\Data.pdb
