@@ -19,6 +19,7 @@ namespace Data
         }
 
         public DbSet<UserProfile> UserProfiles { get; set; }
+        public DbSet<Post> Posts { get; set; }
 
     }  
 }

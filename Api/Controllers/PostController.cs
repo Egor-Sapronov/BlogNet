@@ -19,17 +19,17 @@ namespace Api.Controllers
 
         public IEnumerable<Post> Get()
         {
-            throw new NotImplementedException();
+            return Uow.Posts.GetAll();
         }
 
         public Post Get(int id)
         {
-            throw new NotImplementedException();
+            return Uow.Posts.GetById(id);
         }
 
         public void Post(Post value)
         {
-            throw new NotImplementedException();
+            Uow.Posts.Add(value);
         }
 
         public void Put(int id, Post value)
@@ -39,7 +39,7 @@ namespace Api.Controllers
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            Uow.Posts.Delete(id);
         }
     }
 }

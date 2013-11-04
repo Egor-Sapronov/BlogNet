@@ -26,7 +26,7 @@ namespace Data
         //public ITagRepository Tags { get { return GetRepo<ITagRepository>(); } }
 
         public IRepository<UserProfile> UserProfiles { get { return GetStandardRepo<UserProfile>(); } }
-
+        public IRepository<Post> Posts { get { return GetStandardRepo<Post>(); } }
 
         protected void CreateDbContext()
         {
