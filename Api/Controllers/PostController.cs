@@ -17,6 +17,12 @@ namespace Api.Controllers
             Uow = uow;
         }
 
+        public IEnumerable<Post> GetPostsForUserId(int id)
+        {
+            return Uow.Posts.GetPostsByUserId(id);
+        }
+
+        #region CRUD
         //
         // GET: /api/post
 
@@ -44,5 +50,6 @@ namespace Api.Controllers
         {
             Uow.Posts.Delete(id);
         }
+        #endregion
     }
 }

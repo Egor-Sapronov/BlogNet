@@ -17,7 +17,7 @@ namespace Data.Contracts
 
         //Repositories
         IRepository<UserProfile> UserProfiles { get;}
-        IRepository<Post> Posts { get; }
+        IPostRepository Posts { get; }
         IRepository<Comment> Comments { get; }
     }
 }

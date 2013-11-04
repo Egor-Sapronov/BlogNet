@@ -36,6 +36,9 @@ namespace Data
 
         public virtual void Add(T entity)
         {
+            if (entity == null)
+                throw new ArgumentNullException("Entity");
+
             DbEntityEntry dbEntityEntry = DbContext.Entry(entity);
             if (dbEntityEntry.State!=EntityState.Detached)
             {
@@ -49,6 +52,9 @@ namespace Data
 
         public virtual void Update(T entity)
         {
+            if (entity == null)
+                throw new ArgumentNullException("Entity");
+
             DbEntityEntry dbEntityEntry = DbContext.Entry(entity);
             if (dbEntityEntry.State==EntityState.Detached)
             {
@@ -59,6 +65,9 @@ namespace Data
 
         public virtual void Delete(T entity)
         {
+            if (entity == null)
+                throw new ArgumentNullException("Entity");
+
             DbEntityEntry dbEntityEntry = DbContext.Entry(entity);
             if (dbEntityEntry.State != EntityState.Deleted)
             {
