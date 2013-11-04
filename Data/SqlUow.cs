@@ -27,6 +27,7 @@ namespace Data
 
         public IRepository<UserProfile> UserProfiles { get { return GetStandardRepo<UserProfile>(); } }
         public IRepository<Post> Posts { get { return GetStandardRepo<Post>(); } }
+        public IRepository<Comment> Comments { get { return GetStandardRepo<Comment>(); } }
 
         protected void CreateDbContext()
         {
