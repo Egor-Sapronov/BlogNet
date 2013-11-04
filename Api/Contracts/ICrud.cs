@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Api.Contracts
 {
-    public interface ICrudController<T> where T : class
+    /// <summary>
+    /// Represent Create, Read, Update, Delete actions
+    /// </summary>
+    /// <typeparam name="T">Type of entity for this actions</typeparam>
+    public interface ICrud<T> where T : class
     {
         IEnumerable<T> Get();
 
