@@ -17,9 +17,12 @@ namespace Api.Controllers
             Uow = uow;
         }
 
+        //
+        // GET: /api/post
+
         public IEnumerable<Post> Get()
         {
-            return Uow.Posts.GetAll();
+            return Uow.Posts.GetAll().ToList();
         }
 
         public Post Get(int id)

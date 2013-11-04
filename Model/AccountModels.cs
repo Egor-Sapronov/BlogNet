@@ -26,6 +26,7 @@ namespace Model
         public int UserId { get; set; }
         public string UserName { get; set; }
 
+        //Navigations properties
         public virtual ICollection<Post> Posts { get; set; }
         public virtual ICollection<Comment> Comments { get; set; }
     }

@@ -20,10 +20,10 @@ namespace Model
         [Required]
         public DateTime Date { get; set; }
 
+        //Navigations properties
         public int UserProfileId { get; set; }
         [Required]
         public virtual UserProfile UserProfile { get; set; }
-
         public int PostId { get; set; }
         [Required]
         public virtual Post Post { get; set; }

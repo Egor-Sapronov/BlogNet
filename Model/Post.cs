@@ -25,10 +25,10 @@ namespace Model
         [Required]
         public DateTime Date { get; set; }
 
+        //Navigations properties
         public int UserProfileId { get; set; }
         [Required]
         public virtual UserProfile UserProfile { get; set; }
-
         public virtual ICollection<Comment> Comments { get; set; }
     }
 }
