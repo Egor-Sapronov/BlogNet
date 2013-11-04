@@ -37,7 +37,7 @@ namespace Api.Controllers
 
         public void Put( Post value)
         {
-            throw new NotImplementedException();
+            Uow.Posts.Update(value);
         }
 
         public void Delete(int id)
