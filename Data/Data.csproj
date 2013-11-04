@@ -47,6 +47,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BlogDbContext.cs" />
+    <Compile Include="Configuration\PostConfiguration.cs" />
+    <Compile Include="Configuration\UserProfileConfiguration.cs" />
     <Compile Include="Contracts\IRepository.cs" />
     <Compile Include="Contracts\ISqlUow.cs" />
     <Compile Include="EFRepository.cs" />
@@ -56,9 +58,7 @@
     <Compile Include="SqlUow.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Configuration\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
