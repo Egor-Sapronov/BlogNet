@@ -22,7 +22,7 @@ namespace Api.Controllers
 
         public IEnumerable<Post> Get()
         {
-            return Uow.Posts.GetAll().ToList();
+            return Uow.Posts.GetAll();
         }
 
         public Post Get(int id)
@@ -35,7 +35,7 @@ namespace Api.Controllers
             Uow.Posts.Add(value);
         }
 
-        public void Put(int id, Post value)
+        public void Put( Post value)
         {
             throw new NotImplementedException();
         }

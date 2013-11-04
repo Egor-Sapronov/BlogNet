@@ -18,7 +18,7 @@ namespace Api.Contracts
 
         void Post(T value);
 
-        void Put(int id, T value);
+        void Put(T value);
 
         void Delete(int id);
     }
