@@ -3,6 +3,7 @@
 *.user
 *.gpState
 *.suo
+*.csproj
 bin*
 obj*
 /packages
@@ -11,6 +12,8 @@ obj*
 # Compiled source #
 ###################
 *.com
+*.cache
+*.pdb
 *.class
 *.dll
 *.exe
